@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://grizzly-dovednosti.web.app/sitemap.xml
