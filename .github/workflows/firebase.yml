@@ -1,7 +1,9 @@
 name: Deploy to Firebase Hosting
+
 on:
   push:
-    - master
+    branches:
+      - master
 
 jobs:
   build_and_preview:
