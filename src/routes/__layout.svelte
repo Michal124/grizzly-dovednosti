@@ -71,7 +71,10 @@
 	<div
 		class="flex flex-col lg:flex-row lg:items-center lg:justify-between w-full border-t border-stone-400 dark:border-stone-600 2xl:px-40 px-10 py-6"
 	>
-		<button class="mb-5 lg:mb-0 text-black dark:text-white cursor-pointer" on:click={switchTheme}>
+		<button
+			class="mb-5 lg:mb-0 text-black dark:text-white cursor-pointer text-left"
+			on:click={switchTheme}
+		>
 			Přepnout na {darkTheme ? 'světlý' : 'tmavý'} vzhled
 		</button>
 		<div class="mb-5 lg:mb-0 flex flex-col lg:flex-row text-black dark:text-white">
